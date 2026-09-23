@@ -1,0 +1,1 @@
+{name: Importar site do ar, on: workflow_dispatch, permissions: {contents: write}, jobs: {importar: {runs-on: ubuntu-latest, steps: [{uses: actions/checkout@v4}, {run: bash importar-site.sh}]}}}
