@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aula experimental | EXXEN Escola de Tênis</title>
+  <meta name="description" content="Veja os valores e peça sua aula experimental de tênis na EXXEN, em Sinop/MT: formulário rápido ou WhatsApp.">
+  <meta name="theme-color" content="#091821">
+  <link rel="canonical" href="https://exxentenis.com.br/Aula-Experimental.html">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="EXXEN Escola de Tênis">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Aula experimental | EXXEN Escola de Tênis">
+  <meta property="og:description" content="Veja os valores e peça sua aula experimental de tênis na EXXEN, em Sinop/MT: formulário rápido ou WhatsApp.">
+  <meta property="og:url" content="https://exxentenis.com.br/Aula-Experimental.html">
+  <meta property="og:image" content="https://exxentenis.com.br/img/hero-serve.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Aula experimental | EXXEN Escola de Tênis">
+  <meta name="twitter:description" content="Veja os valores e peça sua aula experimental de tênis na EXXEN, em Sinop/MT: formulário rápido ou WhatsApp.">
+  <meta name="twitter:image" content="https://exxentenis.com.br/img/hero-serve.jpg">
+<script src="./support.js"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16738051768"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","AW-16738051768");</script>
+<style>
+/* Aula experimental — 27/09/2026. Só o que esta página usa. */
+.xp-wrap{max-width:980px;margin:0 auto;padding:0 20px;}
+.xp-precos{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:28px;}
+@media (max-width:760px){.xp-precos{grid-template-columns:1fr;}}
+.xp-preco{background:linear-gradient(180deg,#fff,var(--panel));border:1px solid var(--line);border-radius:12px;padding:24px 22px;}
+.xp-preco .rot{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);}
+.xp-preco .val{font-size:clamp(28px,3.4vw,38px);font-weight:300;letter-spacing:-.03em;margin-top:10px;color:var(--ink);}
+.xp-preco .val small{font-size:14px;color:var(--muted);font-weight:400;letter-spacing:0;}
+.xp-preco p{font-size:14px;color:var(--ink-2);margin-top:6px;line-height:1.45;}
+.xp-preco.dest{background:var(--ink-blue);border-color:var(--ink-blue);color:#fff;}
+.xp-preco.dest .val{color:#fff;} .xp-preco.dest p,.xp-preco.dest .rot{color:rgba(255,255,255,.72);}
+.xp-nota{font-size:13px;color:var(--muted);margin-top:12px;line-height:1.5;}
+.xp-escolha{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:30px;}
+@media (max-width:760px){.xp-escolha{grid-template-columns:1fr;}}
+.xp-opcao{display:block;text-align:left;border:1.5px solid var(--line-strong);border-radius:12px;padding:22px;background:#fff;cursor:pointer;color:var(--ink);text-decoration:none;font:inherit;transition:border-color .2s,transform .2s;}
+.xp-opcao:hover{border-color:var(--orange);transform:translateY(-2px);}
+.xp-opcao b{display:block;font-size:18px;} .xp-opcao span{display:block;font-size:14px;color:var(--ink-2);margin-top:6px;}
+.xp-card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:clamp(20px,3vw,34px);margin-top:26px;box-shadow:0 10px 30px rgba(9,24,33,.06);}
+.xp-passos{display:flex;gap:6px;margin-bottom:22px;}
+.xp-passos i{flex:1;height:4px;border-radius:4px;background:var(--line);}
+.xp-passos i.on{background:var(--orange);}
+.xp-card h3{font-size:clamp(20px,2.4vw,26px);font-weight:500;letter-spacing:-.02em;}
+.xp-card .ajuda{font-size:14px;color:var(--muted);margin-top:4px;}
+.xp-campo{display:block;margin-top:18px;font-size:14px;font-weight:600;color:var(--ink);}
+.xp-campo input,.xp-campo textarea{display:block;width:100%;margin-top:7px;padding:13px 14px;border:1.5px solid var(--line-strong);border-radius:8px;font:inherit;font-weight:400;font-size:16px;background:var(--paper);color:var(--ink);}
+.xp-campo input:focus,.xp-campo textarea:focus{outline:none;border-color:var(--blue);background:#fff;}
+.xp-chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:9px;}
+.xp-chip{border:1.5px solid var(--line-strong);border-radius:100px;padding:10px 16px;font-size:14px;background:#fff;cursor:pointer;color:var(--ink-2);font-family:inherit;}
+.xp-chip[aria-pressed="true"]{border-color:var(--orange);background:#fff4ea;color:var(--orange-deep);font-weight:600;}
+.xp-acoes{display:flex;gap:10px;margin-top:26px;flex-wrap:wrap;}
+.xp-acoes .btn{flex:0 0 auto;}
+.xp-erro{margin-top:16px;padding:12px 14px;border-radius:8px;background:#fdecea;color:#8a1c12;font-size:14px;}
+.xp-ok{text-align:center;padding:10px 0;}
+.xp-ok h3{margin-top:10px;} .xp-ok p{color:var(--ink-2);margin-top:10px;line-height:1.55;}
+.xp-ciente{display:flex;gap:10px;align-items:flex-start;margin-top:20px;font-size:14px;line-height:1.45;color:var(--ink-2);}
+.xp-ciente input{margin-top:3px;width:18px;height:18px;flex:none;}
+.xp-lgpd{font-size:12px;color:var(--muted);margin-top:14px;line-height:1.5;}
+#exp-app:empty::before{content:"Carregando os valores…";display:block;margin-top:18px;color:var(--muted);}
+.xp-hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;}
+</style>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400&family=Newsreader:ital,opsz,wght@1,6..72,300;1,6..72,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="exxen.css">
+</helmet>
+<nav class="nav" id="nav">
+ <div class="nav-inner">
+ <a href="index.html" aria-label="EXXEN Escola de Tênis"><img class="logo white" src="assets/exxen-logo-white.png" alt="EXXEN Escola de Tênis"><img class="logo dark" src="assets/exxen-logo.png" alt="EXXEN Escola de Tênis"></a>
+ <div class="nav-links">
+ <a href="A-EXXEN.html">A EXXEN</a>
+ <a href="Programas.html">Programas</a>
+ <a href="Estrutura.html">Estrutura</a>
+ <a href="Eventos.html">Comunidade</a>
+ <a href="Contato.html">Contato</a>
+ </div>
+ <div class="nav-actions">
+ <a class="nav-ig" href="https://instagram.com/sinoptenis" target="_blank" rel="noopener noreferrer" aria-label="Instagram da EXXEN, @sinoptenis" title="@sinoptenis no Instagram"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="2.6" y="2.6" width="18.8" height="18.8" rx="5.5" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4.1" stroke="currentColor" stroke-width="1.8"/><circle cx="17.5" cy="6.5" r="1.25" fill="currentColor"/></svg></a>
+  <a class="nav-cta" href="Aula-Experimental.html">Agendar aula</a>
+ <div class="burger" onClick="{{ openMenu }}" role="button" aria-label="Abrir menu"><span></span><span></span><span></span></div>
+ </div>
+ </div>
+</nav>
+
+<div class="mmenu" id="mmenu">
+ <div class="mtop"><img class="logo" src="assets/exxen-logo-white.png" style="height:30px;" alt="EXXEN"><div class="mclose" onClick="{{ closeMenu }}" role="button" aria-label="Fechar menu">×</div></div>
+ <div style="margin-top:30px;display:flex;flex-direction:column;">
+ <a href="A-EXXEN.html">A EXXEN</a>
+ <a href="Programas.html">Programas</a>
+ <a href="Estrutura.html">Estrutura</a>
+ <a href="Eventos.html">Comunidade</a>
+ <a href="Contato.html">Contato</a>
+ </div>
+ <a class="mig" href="https://instagram.com/sinoptenis" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="2.6" y="2.6" width="18.8" height="18.8" rx="5.5" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4.1" stroke="currentColor" stroke-width="1.8"/><circle cx="17.5" cy="6.5" r="1.25" fill="currentColor"/></svg><span>Instagram <b>@sinoptenis</b></span></a>
+ <a class="btn btn-primary mcta" href="Aula-Experimental.html">Agendar aula experimental</a>
+</div>
+
+<header class="subhero court" style="min-height:62vh;">
+  <div class="bg" style="background-image:url('img/kid-toss.jpg');background-size:cover;background-position:center 35%;"></div><div class="grad"></div>
+  <div class="inner">
+    <div class="crumb"><a href="index.html">Início</a> &nbsp;/&nbsp; <b>Aula experimental</b></div>
+    <h1>Sua primeira aula<br>no <b>saibro</b>.</h1>
+    <p class="sub">Antes de marcar, veja quanto custa praticar tênis na EXXEN. Depois é só escolher: um formulário de dois minutos ou uma conversa no WhatsApp.</p>
+  </div>
+</header>
+
+<section class="section" style="padding-top:clamp(40px,5vw,64px);padding-bottom:clamp(50px,6vw,90px);">
+  <div class="xp-wrap">
+    <div class="kicker-row"><span class="ln"></span><span class="eyebrow">Transparência primeiro</span></div>
+    <h2 class="title">Quanto custa.</h2>
+    <div id="exp-app"></div>
+  </div>
+</section>
+
+<footer style="border-top:1px solid transparent;border-image:linear-gradient(90deg,transparent,var(--orange) 50%,transparent) 1;">
+ <div class="wrap">
+ <div class="fgrid">
+ <div>
+ <img class="flogo" src="assets/exxen-logo-white.png" alt="EXXEN Escola de Tênis">
+ <p class="fdesc">Escola de tênis em Sinop/MT. Tradição desde 1999. Seis quadras de saibro, metodologia própria e uma comunidade que forma pessoas.</p>
+        <p class="fdesc" style="margin-top:14px;">Av. André Antônio Maggi, 3715 - Lot. Village, Sinop - MT, 78555-286</p>
+        <p class="fdesc" style="margin-top:6px;">(66) 99222-0846</p>
+ <div class="fsocial"><a href="https://instagram.com/sinoptenis" target="_blank" rel="noopener noreferrer" aria-label="Instagram, @sinoptenis"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="2.6" y="2.6" width="18.8" height="18.8" rx="5.5" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4.1" stroke="currentColor" stroke-width="1.8"/><circle cx="17.5" cy="6.5" r="1.25" fill="currentColor"/></svg><span>@sinoptenis</span></a></div>
+ </div>
+ <div class="fcol"><h5>A Escola</h5><a href="A-EXXEN.html">A EXXEN</a><a href="Nossa-Historia.html">Nossa História</a><a href="Metodologia.html">Metodologia</a><a href="Professores.html">Professores</a></div>
+ <div class="fcol"><h5>Experiência</h5><a href="Programas.html">Programas</a><a href="EXXEN-FLEX.html">EXXEN FLEX</a><a href="Estrutura.html">Estrutura</a><a href="Eventos.html">Eventos &amp; Torneios</a></div>
+ <div class="fcol"><h5>Contato</h5><a href="Contato.html">Fale conosco</a><a href="Aula-Experimental.html">Agendar aula</a><a href="Loja.html">Loja</a></div>
+ </div>
+ <div class="fbar">
+ <span>© 2026 EXXEN Escola de Tênis · exxentenis.com.br</span>
+ <span style="display:flex;gap:20px;"><a href="Politica-Privacidade.html">Privacidade</a><a href="LGPD.html">LGPD</a><a href="Contato.html">Sinop · MT</a></span>
+ </div>
+ </div>
+</footer>
+
+<div class="mbar"><a class="btn btn-primary" href="Aula-Experimental.html">Agendar aula</a><a class="btn btn-ghost" href="https://wa.me/5566992220846?text=Ol%C3%A1!%20Quero%20agendar%20uma%20aula%20experimental%20na%20EXXEN." target="_blank" rel="noopener">WhatsApp</a></div>
+
+<a class="fab" href="https://wa.me/5566992220846?text=Ol%C3%A1!%20Quero%20agendar%20uma%20aula%20experimental%20na%20EXXEN." target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm5.8 14.01c-.24.68-1.4 1.3-1.94 1.38-.5.07-1.12.1-1.81-.11-.42-.13-.95-.31-1.64-.6-2.88-1.24-4.76-4.14-4.9-4.33-.14-.19-1.17-1.56-1.17-2.97s.74-2.11 1-2.4c.26-.29.57-.36.76-.36.19 0 .38 0 .55.01.18.01.41-.07.65.49.24.58.81 2 .88 2.15.07.14.12.31.02.5-.1.19-.15.31-.29.48-.14.17-.3.38-.43.51-.14.14-.29.29-.12.58.17.29.74 1.22 1.59 1.98 1.09.97 2.01 1.27 2.3 1.41.29.14.46.12.63-.07.17-.19.72-.84.91-1.13.19-.29.39-.24.65-.14.27.1 1.69.8 1.98.94.29.14.48.22.55.34.07.12.07.7-.17 1.38z"/></svg></a>
+</x-dc>
+<script>
+/* ──────────────────────────────────────────────────────────────────────────
+   Aula experimental — 27/09/2026.
+
+   Os valores «a partir de» e o formulário de triagem vêm do ExxenOS:
+     GET  /api/v1/site/public/experimental/vitrine
+     POST /api/v1/site/public/experimental/pedido
+   O pedido NÃO agenda: ele chega para a consultora, que liga, escolhe a turma
+   e lança o agendamento no sistema.
+
+   Esta página monta o próprio conteúdo dentro de #exp-app (o resto da página
+   é o template do site). Se o sistema estiver fora do ar, a página não inventa
+   preço: manda para o WhatsApp.
+   ────────────────────────────────────────────────────────────────────────── */
+(function () {
+  var API = (window.EXXEN_API || 'https://app.exxentenis.com.br') + '/api/v1/site/public/experimental';
+  var ZAP_PADRAO = '5566992220846';
+  var aberto = Date.now();
+  var vit = null;
+  var passo = 0;
+  var r = { para_quem: '', nome: '', responsavel_nome: '', idade: '', experiencia: '', objetivo: '',
+            periodos: [], dias: [], telefone: '', email: '', observacao: '', ciente: false };
+  var OBJETIVOS = ['Aprender do zero', 'Voltar a jogar', 'Competir', 'Saúde e bem-estar', 'Diversão em família'];
+
+  function esc(t) { return String(t == null ? '' : t).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
+  function reais(v) { return v == null ? '—' : Number(v).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }); }
+  function zapNumero() { return (vit && vit.whatsapp) || ZAP_PADRAO; }
+  function zapLink(texto) { return 'https://wa.me/' + zapNumero() + '?text=' + encodeURIComponent(texto); }
+  function zapDireto() {
+    var t = vit && vit.mostrar_precos
+      ? 'Olá! Vi os valores no site e quero agendar uma aula experimental na EXXEN.'
+      : 'Olá! Quero agendar uma aula experimental na EXXEN.';
+    return zapLink(t);
+  }
+  function opcoes(nome) { return (vit && vit.opcoes && vit.opcoes[nome]) || []; }
+  function el() { return document.getElementById('exp-app'); }
+
+  function precosHtml() {
+    if (!vit || !vit.mostrar_precos) {
+      return '<p class="lead" style="margin-top:18px;">Fale com a nossa consultora para saber os valores do plano ideal para você.</p>';
+    }
+    // O asterisco só existe quando há a nota que ele explica.
+    var ast = vit.observacao ? '*' : '';
+    return '<div class="xp-precos">' +
+      '<div class="xp-preco"><div class="rot">Crianças · 1x por semana · diurno · em grupo</div><div class="val"><small>a partir de </small>' + reais(vit.preco_kids_1x) + '<small>/mês' + ast + '</small></div><p>Turmas Kids, a partir de 4 anos.</p></div>' +
+      '<div class="xp-preco"><div class="rot">Adultos · 1x por semana · diurno · em grupo</div><div class="val"><small>a partir de </small>' + reais(vit.preco_adulto_1x_diurno) + '<small>/mês' + ast + '</small></div><p>Turmas por nível, do iniciante ao avançado.</p></div>' +
+      '<div class="xp-preco dest"><div class="rot">Aula experimental</div><div class="val">' + reais(vit.valor_experimental) + '</div><p>Uma aula na turma do seu nível, com professor da casa.' +
+        (vit.abate_na_matricula_dias ? ' <b style="color:#fff">O valor é abatido na primeira mensalidade</b> se você se matricular em até ' + vit.abate_na_matricula_dias + ' dias após a aula.' : '') + '</p></div>' +
+      '</div>' +
+      (vit.observacao ? '<p class="xp-nota"><b>*</b> ' + esc(vit.observacao) + '</p>' : '') +
+      '<p class="xp-nota" style="margin-top:4px">Mais aulas por semana, horário noturno e programas de alto rendimento têm valores próprios.</p>';
+  }
+
+  function inicio() {
+    etapa = 'inicio';
+    el().innerHTML = precosHtml() +
+      '<h3 style="margin-top:38px;font-size:clamp(20px,2.4vw,26px);font-weight:500;">Como você prefere marcar?</h3>' +
+      '<div class="xp-escolha">' +
+        '<button type="button" class="xp-opcao" data-xp="form"><b>Preencher o formulário →</b><span>Dois minutos. A consultora já te chama sabendo o horário e a turma ideais.</span></button>' +
+        '<a class="xp-opcao" href="' + zapDireto() + '" target="_blank" rel="noopener" data-xp="zap"><b>Falar no WhatsApp →</b><span>Direto com a nossa consultora, de segunda a sábado.</span></a>' +
+      '</div>';
+  }
+
+  function chips(nome, lista, multiplo) {
+    return '<div class="xp-chips">' + lista.map(function (o) {
+      var on = multiplo ? r[nome].indexOf(o.valor) >= 0 : r[nome] === o.valor;
+      return '<button type="button" class="xp-chip" aria-pressed="' + on + '" data-chip="' + nome + '" data-valor="' + esc(o.valor) + '" data-multi="' + (multiplo ? 1 : 0) + '">' + esc(o.rotulo) + '</button>';
+    }).join('') + '</div>';
+  }
+
+  function campo(nome, rotulo, extra) {
+    return '<label class="xp-campo">' + rotulo + '<input data-campo="' + nome + '" value="' + esc(r[nome]) + '" ' + (extra || '') + '></label>';
+  }
+
+  var TITULOS = ['Para quem é a aula?', 'Já jogou tênis?', 'Quando fica bom?', 'Como falamos com você?'];
+
+  function valido() {
+    if (passo === 0) return r.para_quem && r.nome.trim().length >= 2 && Number(r.idade) >= 3 && Number(r.idade) <= 100
+      && (r.para_quem !== 'filho' || r.responsavel_nome.trim().length >= 2);
+    if (passo === 1) return !!r.experiencia;
+    if (passo === 2) return r.periodos.length > 0;
+    var d = r.telefone.replace(/\D/g, '');
+    return d.length >= 10 && d.length <= 13 && (!vit || !vit.mostrar_precos || r.ciente);
+  }
+
+  function formulario(erro) {
+    etapa = 'form';
+    var corpo = '';
+    if (passo === 0) {
+      corpo = chips('para_quem', opcoes('para_quem'), false) +
+        campo('nome', r.para_quem === 'filho' ? 'Nome da criança ou do jovem' : 'Nome de quem vai fazer a aula', 'autocomplete="name" maxlength="160"') +
+        campo('idade', 'Idade', 'inputmode="numeric" maxlength="3" style="max-width:140px"') +
+        (r.para_quem === 'filho' ? campo('responsavel_nome', 'Seu nome (responsável)', 'maxlength="160"') : '');
+    } else if (passo === 1) {
+      corpo = chips('experiencia', opcoes('experiencia'), false) +
+        '<label class="xp-campo">O que você busca? <span style="font-weight:400;color:var(--muted)">(opcional)</span></label>' +
+        chips('objetivo', OBJETIVOS.map(function (o) { return { valor: o, rotulo: o }; }), false);
+    } else if (passo === 2) {
+      corpo = '<label class="xp-campo">Períodos do dia</label>' + chips('periodos', opcoes('periodos'), true) +
+        '<label class="xp-campo">Dias da semana <span style="font-weight:400;color:var(--muted)">(opcional)</span></label>' + chips('dias', opcoes('dias'), true) +
+        '<label class="xp-campo">Algo que a gente deva saber? <span style="font-weight:400;color:var(--muted)">(opcional)</span><textarea data-campo="observacao" rows="3" maxlength="500">' + esc(r.observacao) + '</textarea></label>';
+    } else {
+      corpo = campo('telefone', 'WhatsApp com DDD', 'inputmode="tel" autocomplete="tel" placeholder="(66) 99999-0000" maxlength="40"') +
+        campo('email', 'E-mail <span style="font-weight:400;color:var(--muted)">(opcional)</span>', 'type="email" autocomplete="email" maxlength="160"') +
+        (vit && vit.mostrar_precos
+          ? '<label class="xp-ciente"><input type="checkbox" data-ciente ' + (r.ciente ? 'checked' : '') + '> <span>Vi os valores: mensalidade a partir de ' + reais(r.para_quem === 'filho' ? vit.preco_kids_1x : vit.preco_adulto_1x_diurno) + ' (1x por semana, diurno, em grupo' + (vit.observacao ? ', ' + esc(vit.observacao.replace(/\.$/, '').replace(/^V/, 'v')) : '') + ') e aula experimental de ' + reais(vit.valor_experimental) + (vit.abate_na_matricula_dias ? ', abatida na primeira mensalidade se eu me matricular em até ' + vit.abate_na_matricula_dias + ' dias após a aula' : '') + '.</span></label>'
+          : '') +
+        '<p class="xp-lgpd">Usamos estes dados só para combinar a sua aula experimental. Veja a nossa <a href="Politica-Privacidade.html">política de privacidade</a>.</p>';
+    }
+    el().innerHTML = '<div class="xp-card">' +
+      '<div class="xp-passos">' + [0, 1, 2, 3].map(function (i) { return '<i class="' + (i <= passo ? 'on' : '') + '"></i>'; }).join('') + '</div>' +
+      '<h3>' + TITULOS[passo] + '</h3><p class="ajuda">Passo ' + (passo + 1) + ' de 4</p>' +
+      '<div class="xp-hp" aria-hidden="true"><label>Não preencha<input data-campo="website" tabindex="-1" autocomplete="off"></label></div>' +
+      corpo + (erro ? '<div class="xp-erro" role="alert">' + esc(erro) + '</div>' : '') +
+      '<div class="xp-acoes">' +
+        '<button type="button" class="btn btn-ghost" data-xp="' + (passo === 0 ? 'inicio' : 'voltar') + '">' + (passo === 0 ? 'Ver os valores' : '← Voltar') + '</button>' +
+        '<button type="button" class="btn btn-primary" data-xp="avancar" ' + (valido() ? '' : 'disabled style="opacity:.5;cursor:not-allowed"') + '>' + (passo === 3 ? 'Enviar pedido' : 'Continuar →') + '</button>' +
+      '</div></div>';
+  }
+
+  function atualizarBotao() {
+    var b = el().querySelector('[data-xp="avancar"]');
+    if (!b) return;
+    if (valido()) { b.removeAttribute('disabled'); b.style.opacity = ''; b.style.cursor = ''; }
+    else { b.setAttribute('disabled', ''); b.style.opacity = '.5'; b.style.cursor = 'not-allowed'; }
+  }
+
+  function cookie(n) { var m = document.cookie.match('(?:^|; )' + n + '=([^;]*)'); return m ? decodeURIComponent(m[1]) : null; }
+
+  function enviar() {
+    var q = new URLSearchParams(location.search);
+    var hp = el().querySelector('[data-campo="website"]');
+    var corpo = {
+      nome: r.nome.trim(), responsavel_nome: r.responsavel_nome.trim() || null, telefone: r.telefone,
+      email: r.email.trim() || null, para_quem: r.para_quem, idade: Number(r.idade), experiencia: r.experiencia,
+      objetivo: r.objetivo || null, periodos: r.periodos, dias: r.dias, observacao: r.observacao.trim() || null,
+      ciente_valores: !!r.ciente, website: hp ? hp.value : '', form_elapsed_ms: Date.now() - aberto,
+      utm_source: q.get('utm_source'), utm_medium: q.get('utm_medium'), utm_campaign: q.get('utm_campaign'),
+      utm_term: q.get('utm_term'), utm_content: q.get('utm_content'), gclid: q.get('gclid'), fbclid: q.get('fbclid'),
+      fbp: cookie('_fbp'), fbc: cookie('_fbc'), referrer: document.referrer || null,
+      landing_page: location.href, page_url: location.href
+    };
+    var b = el().querySelector('[data-xp="avancar"]');
+    if (b) { b.setAttribute('disabled', ''); b.textContent = 'Enviando…'; }
+    fetch(API + '/pedido', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(corpo) })
+      .then(function (res) { return res.json().catch(function () { return {}; }).then(function (d) { return { ok: res.ok, d: d }; }); })
+      .then(function (x) {
+        if (!x.ok) { formulario(typeof x.d.detail === 'string' ? x.d.detail : 'Não conseguimos enviar agora. Tente de novo ou fale pelo WhatsApp.'); return; }
+        try { if (window.fbq && x.d.event_id) window.fbq('track', 'Lead', {}, { eventID: x.d.event_id }); } catch (e) {}
+        try { if (window.gtag) window.gtag('event', 'generate_lead', { form: 'aula_experimental' }); } catch (e) {}
+        sucesso(x.d);
+      })
+      .catch(function () { formulario('Sem conexão com o nosso sistema agora. Fale com a gente pelo WhatsApp — é rapidinho.'); });
+  }
+
+  function sucesso(d) {
+    etapa = 'ok'; ultimo = d;
+    var primeiro = (r.para_quem === 'filho' ? r.responsavel_nome : r.nome).trim().split(' ')[0];
+    el().innerHTML = '<div class="xp-card xp-ok">' +
+      '<div class="eyebrow" style="color:var(--orange)">Pedido nº ' + esc(d.pedido || '') + '</div>' +
+      '<h3>Recebemos, ' + esc(primeiro) + '!</h3>' +
+      '<p>A nossa consultora vai te chamar no WhatsApp para combinar o dia, o horário e a turma. Seg. a sáb., normalmente no mesmo dia.</p>' +
+      (d.whatsapp_link ? '<div class="xp-acoes" style="justify-content:center"><a class="btn btn-primary" href="' + esc(d.whatsapp_link) + '" target="_blank" rel="noopener">Adiantar pelo WhatsApp →</a></div>' : '') +
+      '</div>';
+  }
+
+  // Eventos por delegação: sobrevivem se o template do site redesenhar.
+  document.addEventListener('click', function (ev) {
+    var t = ev.target.closest && ev.target.closest('#exp-app [data-xp], #exp-app [data-chip]');
+    if (!t) return;
+    var acao = t.getAttribute('data-xp');
+    if (t.hasAttribute('data-chip')) {
+      var nome = t.getAttribute('data-chip'), v = t.getAttribute('data-valor');
+      if (t.getAttribute('data-multi') === '1') {
+        var i = r[nome].indexOf(v); if (i >= 0) r[nome].splice(i, 1); else r[nome].push(v);
+      } else { r[nome] = (nome === 'objetivo' && r[nome] === v) ? '' : v; }
+      formulario(); return;
+    }
+    if (acao === 'form') { passo = 0; formulario(); el().scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+    else if (acao === 'inicio') inicio();
+    else if (acao === 'voltar') { passo = Math.max(0, passo - 1); formulario(); }
+    else if (acao === 'avancar' && valido()) { if (passo < 3) { passo++; formulario(); } else enviar(); }
+  });
+  document.addEventListener('input', function (ev) {
+    var t = ev.target;
+    if (!t.closest || !t.closest('#exp-app')) return;
+    var c = t.getAttribute('data-campo');
+    if (c && c !== 'website') r[c] = t.value;
+    if (t.hasAttribute('data-ciente')) r.ciente = t.checked;
+    atualizarBotao();
+  });
+  document.addEventListener('change', function (ev) {
+    var t = ev.target;
+    if (t.closest && t.closest('#exp-app') && t.hasAttribute('data-ciente')) { r.ciente = t.checked; atualizarBotao(); }
+  });
+
+  // A vitrine é lida UMA vez. O #exp-app pode ser montado duas vezes (antes e
+  // depois de o template do site ser desenhado); cada montagem redesenha a
+  // etapa em que a pessoa ESTÁ — nunca a devolve para o começo.
+  var carga = null;
+  var etapa = 'inicio';
+  function desenhar() { if (etapa === 'form') formulario(); else if (etapa === 'ok') sucesso(ultimo); else inicio(); }
+  var ultimo = null;
+  var montadoEm = null;
+  function montar() {
+    var app = el();
+    // Guardado em variável, não em atributo: o template do site pode
+    // redesenhar os atributos do elemento.
+    if (!app || app === montadoEm) return false;
+    montadoEm = app;
+    if (!carga) {
+      carga = fetch(API + '/vitrine').then(function (res) { return res.ok ? res.json() : null; })
+        .then(function (d) { vit = d; }, function () { vit = null; });
+    }
+    carga.then(desenhar);
+    return true;
+  }
+  // O template do site é desenhado depois do carregamento: monta quando o
+  // #exp-app aparecer (e de novo, se ele for redesenhado).
+  if (!montar()) {
+    var obs = new MutationObserver(function () { montar(); });
+    obs.observe(document.documentElement, { childList: true, subtree: true });
+  } else {
+    new MutationObserver(function () { montar(); }).observe(document.documentElement, { childList: true, subtree: true });
+  }
+})();
+</script>
+
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+ state = { menu:false };
+ openMenu = () => { document.getElementById('mmenu').classList.add('open'); document.body.style.overflow='hidden'; };
+ closeMenu = () => { document.getElementById('mmenu').classList.remove('open'); document.body.style.overflow=''; };
+ renderVals(){ return { openMenu:this.openMenu, closeMenu:this.closeMenu }; }
+ componentDidMount(){
+ const nav = document.getElementById('nav');
+ const scroller = document.getElementById('scroller');
+ const root = scroller || null;
+ const onScroll = () => { const y = scroller ? scroller.scrollTop : window.scrollY; if(y > 40) nav.classList.add('solid'); else nav.classList.remove('solid'); };
+ onScroll();
+ (scroller || window).addEventListener('scroll', onScroll, {passive:true});
+ this._scrollTarget = scroller || window; this._onScroll = onScroll;
+ const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+ // reveal
+ const io = new IntersectionObserver((es)=>{ es.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } }); }, {root, threshold:0.12, rootMargin:'0px 0px -6% 0px'});
+ document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+ this._io = io;
+ // nav solidity via hero visibility (robust, no scroll-event dependency)
+ const hero = document.querySelector('.hero.subhero');
+ if(hero){ const hio = new IntersectionObserver((es)=>{ const e=es[0]; if(e.intersectionRatio > 0.55) nav.classList.remove('solid'); else nav.classList.add('solid'); }, {root, threshold:[0,0.3,0.55,0.85]}); hio.observe(hero); this._hio = hio; }
+ // counters
+ document.querySelectorAll('[data-count]').forEach(el=>{
+ const target = +el.getAttribute('data-count');
+ if(reduce){ el.textContent = target; return; }
+ const cio = new IntersectionObserver((es,obs)=>{ es.forEach(e=>{ if(e.isIntersecting){ this.count(el, target); obs.unobserve(e.target); } }); }, {root, threshold:0.6});
+ cio.observe(el);
+ });
+ // failsafe: never leave content hidden if scroll/IO is degenerate
+ this._fs = setTimeout(()=>{
+ document.querySelectorAll('.reveal:not(.in)').forEach(el=>el.classList.add('in'));
+ document.querySelectorAll('[data-count]').forEach(el=>{ const t=+el.getAttribute('data-count'); if(el.textContent==='0') el.textContent=t; });
+ }, 2600);
+ }
+ count(el, target){
+ const dur = 1200; const start = performance.now();
+ const tick = (now) => {
+ const p = Math.min((now-start)/dur, 1);
+ const eased = 1 - Math.pow(1-p, 3);
+ el.textContent = Math.round(target * eased);
+ if(p < 1) requestAnimationFrame(tick); else el.textContent = target;
+ };
+ requestAnimationFrame(tick);
+ }
+ componentWillUnmount(){ if(this._scrollTarget&&this._onScroll) this._scrollTarget.removeEventListener('scroll', this._onScroll); if(this._io) this._io.disconnect(); if(this._hio) this._hio.disconnect(); if(this._fs) clearTimeout(this._fs); }
+}
+</script>
+</body>
+</html>
