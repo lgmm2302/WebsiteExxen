@@ -180,7 +180,11 @@
     return zapLink(t);
   }
   function opcoes(nome) { return (vit && vit.opcoes && vit.opcoes[nome]) || []; }
-  function el() { return document.getElementById('exp-app'); }
+  // SÓ o #exp-app que o React do site já desenhou (#dc-root). Antes disso o
+  // elemento ainda está dentro do <x-dc>, e o site LÊ esse HTML como modelo:
+  // mexer nele ali faz o React herdar o nosso conteúdo e depois tentar
+  // removê-lo — «removeChild», a página em branco de 27/09 à tarde.
+  function el() { return document.querySelector('#dc-root #exp-app'); }
 
   function precosHtml() {
     if (!vit || !vit.mostrar_precos) {
