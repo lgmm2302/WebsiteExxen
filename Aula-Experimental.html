@@ -299,6 +299,8 @@
         if (!x.ok) { formulario(typeof x.d.detail === 'string' ? x.d.detail : 'Não conseguimos enviar agora. Tente de novo ou fale pelo WhatsApp.'); return; }
         try { if (window.fbq && x.d.event_id) window.fbq('track', 'Lead', {}, { eventID: x.d.event_id }); } catch (e) {}
         try { if (window.gtag) window.gtag('event', 'generate_lead', { form: 'aula_experimental' }); } catch (e) {}
+        // Google Ads — conversão «Pedido de aula experimental (site)», conta Sinop Academia de Tênis (30/09/2026).
+        try { if (window.gtag) window.gtag('event', 'conversion', { send_to: 'AW-16738051768/iH9oCPm3zYsdELjNqa0-', value: 1.0, currency: 'BRL', transaction_id: String(x.d.event_id || x.d.id || '') }); } catch (e) {}
         sucesso(x.d);
       })
       .catch(function () { formulario('Sem conexão com o nosso sistema agora. Fale com a gente pelo WhatsApp — é rapidinho.'); });
