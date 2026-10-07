@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Página não encontrada | EXXEN Escola de Tênis</title>
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#091821">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600&family=Newsreader:ital,opsz,wght@1,6..72,300&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    /* Página independente de propósito: não usa o exxen.css nem o support.js,
+       porque um endereço errado pode ter barras (/a/b/c) e caminho relativo
+       quebraria. Tudo aqui começa em "/". As cores são as do exxen.css. */
+    *{box-sizing:border-box;margin:0;}
+    html,body{height:100%;}
+    body{background:#091821;color:#FAFAF8;font-family:'Work Sans',system-ui,sans-serif;-webkit-font-smoothing:antialiased;display:flex;flex-direction:column;}
+    a{color:inherit;text-decoration:none;}
+    .topo{padding:28px 48px;}
+    .topo img{height:36px;display:block;}
+    main{flex:1;display:flex;align-items:center;padding:24px 48px 72px;}
+    .miolo{max-width:720px;}
+    .sobre{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:#F19C49;}
+    h1{font-weight:600;letter-spacing:-.02em;line-height:1.04;font-size:clamp(40px,7vw,76px);margin-top:18px;}
+    h1 i{font-family:'Newsreader',Georgia,serif;font-style:italic;font-weight:300;color:#F19C49;}
+    p{margin-top:22px;font-size:18px;line-height:1.6;color:#C9D2D7;max-width:56ch;}
+    .acoes{margin-top:34px;display:flex;flex-wrap:wrap;gap:12px;}
+    .btn{display:inline-flex;align-items:center;font-weight:600;font-size:15px;padding:15px 28px;border-radius:6px;border:1.5px solid transparent;transition:background .18s,border-color .18s;}
+    .btn-primary{background:#EA7600;color:#fff;}
+    .btn-primary:hover{background:#C25E1C;}
+    .btn-ghost{border-color:rgba(250,250,248,.32);}
+    .btn-ghost:hover{border-color:#FAFAF8;}
+    .btn:focus-visible,.atalhos a:focus-visible{outline:2px solid #F19C49;outline-offset:3px;}
+    .atalhos{margin-top:44px;padding-top:24px;border-top:1px solid rgba(250,250,248,.14);display:flex;flex-wrap:wrap;gap:10px 28px;font-size:15px;}
+    .atalhos a{color:#C9D2D7;border-bottom:1px solid transparent;padding-bottom:2px;}
+    .atalhos a:hover{color:#FAFAF8;border-bottom-color:#EA7600;}
+    @media (max-width:640px){ .topo{padding:22px 24px;} main{padding:16px 24px 56px;} .btn{flex:1 1 100%;justify-content:center;} }
+  </style>
+</head>
+<body>
+<div class="topo"><a href="/" aria-label="EXXEN Escola de Tênis — página inicial"><img src="/assets/exxen-logo-white.png" alt="EXXEN Escola de Tênis"></a></div>
+<main>
+ <div class="miolo">
+  <div class="sobre">Erro 404 · página não encontrada</div>
+  <h1>Essa bola foi <i>fora</i>.</h1>
+  <p>O endereço que você abriu não existe no site da EXXEN. Pode ter sido digitado errado ou a página mudou de lugar.</p>
+  <div class="acoes">
+   <a class="btn btn-primary" href="/">Ir para a página inicial</a>
+   <a class="btn btn-ghost" href="/Aula-Experimental">Agendar aula experimental</a>
+  </div>
+  <nav class="atalhos" aria-label="Páginas do site">
+   <a href="/A-EXXEN">A EXXEN</a>
+   <a href="/Programas">Programas</a>
+   <a href="/Estrutura">Estrutura</a>
+   <a href="/Eventos">Comunidade</a>
+   <a href="/Contato">Contato</a>
+  </nav>
+ </div>
+</main>
+</body>
+</html>
