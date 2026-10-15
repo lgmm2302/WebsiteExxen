@@ -554,7 +554,7 @@ a:hover > .evt-img{ transform:scale(1.055); }
 .lojas{display:flex;flex-wrap:wrap;align-items:center;gap:14px;margin-top:22px;}
 .lojas-play{display:inline-block;line-height:0;border-radius:10px;transition:transform .2s;}
 .lojas-play:hover{transform:translateY(-2px);}
-.lojas-play img{height:62px;width:auto;margin:-10px;}
+.lojas-play img{height:62px;width:auto;max-width:none;aspect-ratio:646/250;object-fit:contain;margin:-10px;}
 .lojas-ios{display:inline-flex;align-items:center;gap:10px;height:42px;padding:0 16px 0 12px;border:1px solid rgba(255,255,255,.35);border-radius:9px;color:#fff;}
 .lojas-ios svg{width:20px;height:20px;flex:none;}
 .lojas-ios span{display:flex;flex-direction:column;line-height:1.1;}
@@ -567,6 +567,7 @@ a:hover > .evt-img{ transform:scale(1.055); }
 .lojas-sm .lojas-play img{height:54px;margin:-8px;}
 .lojas-sm .lojas-ios{height:36px;}
 .lojas-escuro .lojas-ios{border-color:rgba(255,255,255,.35);}
+.lojas-escuro{margin-top:18px;}
 footer .fapp{margin-top:26px;}
 footer .fapp h5{margin-bottom:10px;}
 footer .fmarca{display:block;width:100%;font-size:11px;opacity:.5;margin-top:6px;}
